@@ -25,3 +25,4 @@ mod proof;
 mod tests;
 
 pub use self::merkle_tree::MerkleTree;
+pub use self::hash_utils::*;
