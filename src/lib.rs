@@ -13,7 +13,6 @@ unsafe_code,
 unused_import_braces,
 unused_qualifications)]
 #![feature(test)]
-#![feature(step_by)]
 
 extern crate crypto;
 extern crate test;
