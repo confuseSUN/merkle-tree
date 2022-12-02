@@ -26,3 +26,5 @@ mod tests;
 
 pub use self::merkle_tree::MerkleTree;
 pub use self::hash_utils::*;
+pub use self::proof::*;
+pub use self::element::*;
