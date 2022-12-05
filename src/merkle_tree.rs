@@ -16,11 +16,11 @@ pub enum ProofNode {
 /// MerkleTree struct represents merkle binary tree with values of type `T` and map of nodes.
 #[derive(Debug)]
 pub struct MerkleTree<T: ToString + Display + Clone> {
-    root: Element<T>,
-    height: usize,
-    count: usize,
-    storage: VecDeque<Rc<T>>,
-    nodes: BTreeMap<usize, VecDeque<Element<T>>>,
+    pub root: Element<T>,
+    pub height: usize,
+    pub count: usize,
+    pub storage: VecDeque<Rc<T>>,
+    pub nodes: BTreeMap<usize, VecDeque<Element<T>>>,
 }
 
 impl<T: ToString + Display + Clone> MerkleTree<T> {
@@ -36,11 +36,11 @@ impl<T: ToString + Display + Clone> MerkleTree<T> {
     /// ```
     pub fn new() -> Self {
         MerkleTree {
-            pub root: Element::empty(),
-            pub height: 0,
-            pub count: 0,
-            pub storage: VecDeque::new(),
-            pub nodes: BTreeMap::new(),
+            root: Element::empty(),
+            height: 0,
+            count: 0,
+            storage: VecDeque::new(),
+            nodes: BTreeMap::new(),
         }
     }
 
