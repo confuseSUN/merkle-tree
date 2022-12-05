@@ -36,11 +36,11 @@ impl<T: ToString + Display + Clone> MerkleTree<T> {
     /// ```
     pub fn new() -> Self {
         MerkleTree {
-            root: Element::empty(),
-            height: 0,
-            count: 0,
-            storage: VecDeque::new(),
-            nodes: BTreeMap::new(),
+            pub root: Element::empty(),
+            pub height: 0,
+            pub count: 0,
+            pub storage: VecDeque::new(),
+            pub nodes: BTreeMap::new(),
         }
     }
 
