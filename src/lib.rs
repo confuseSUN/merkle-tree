@@ -4,18 +4,18 @@
 //! or removed element into/from tree. To increase performance we need to implement partial
 //! tree modification when adding or removing element.
 
-#![deny(missing_docs,
-missing_debug_implementations,
-missing_copy_implementations,
-trivial_casts,
-trivial_numeric_casts,
-unsafe_code,
-unused_import_braces,
-unused_qualifications)]
+// #![deny(missing_docs,
+// missing_debug_implementations,
+// missing_copy_implementations,
+// trivial_casts,
+// trivial_numeric_casts,
+// unsafe_code,
+// unused_import_braces,
+// unused_qualifications)]
 //#![feature(test)]
 
 extern crate crypto;
-extern crate test;
+// extern crate test;
 
 mod element;
 mod hash_utils;
