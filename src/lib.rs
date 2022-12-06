@@ -12,7 +12,7 @@ trivial_numeric_casts,
 unsafe_code,
 unused_import_braces,
 unused_qualifications)]
-#![feature(test)]
+//#![feature(test)]
 
 extern crate crypto;
 extern crate test;
